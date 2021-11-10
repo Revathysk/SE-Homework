@@ -2,24 +2,42 @@
 <style type="text/css">
 
 	h1{text-decoration: underline;}
+
 	p{ color: royalblue;
 		font-style: italic;
+		font-stretch: expanded;
 		font-display:fallback;
-		border-style: outset;
-		display: inline;}	
+		border-style: border;
+		display: block;
+		}	
 
 	body{
-		background-color: lightskyblue;
+		background-color: whitesmoke;
 		border: solid;
 		border-color: lightgrey;
 		margin: 5px;
 		padding: 10px;
-		border-style: outset;
+		border-style: solid;
 		display: block;
+		width: auto;
 		}
 	
-	#pic{position:absolute;top:50px;right:0;width:400px;height:150px;}
-	
+	#pic1{Border: solid;position:absolute;top:20px;right:50px;}
+	#pic2{Border: solid;position:absolute;top:20px;right:50px;}
+
+	ul { list-style-type: none; 
+		 margin: 0;  
+		 padding: 0;  
+		 overflow: hidden; 
+		 float: left;
+		 width: 100%;}
+		
+	li { float:left; }
+	li a{display: block;
+		padding: 8px;
+		background-color: lightslategrey;
+	}
+
 	<! style for Index webpage>
 	ol{font-style: italic;}
 	a{color: purple;}
@@ -29,15 +47,16 @@
 	.Hobby{color: orangered;}
 
 	<!style for Role webpage >
-	div{ width: auto;height: 100px;}
-	#div1{background: lightyellow;	width:400px;height:300px;display: block; }
-	#div2{background: lightyellow;	width:400px;height:300px;}
-	#div3{background: lightyellow;	width:400px;height:300px;display: inline-table;}
+	div{ width: auto;height: 100px; }
+	#div1{background: lightyellow; display: inline-table;}
+	#div2{background: lightyellow;	}
+	#div3{background: lightyellow;	}
+	
           
  	form{padding: 15px;
 	background-color: lemonchiffon;
 	border-style: double;
-	font-weight: 500px;}
+	font-weight: 500px;Width: 60%}
 
 	input[type=text]:focus{background-color: lightyellow;}
 	input[type=button]{color: black;backgroundcolor: rgb(0,0,100);}
