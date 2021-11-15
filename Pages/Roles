@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Revathy\Documents\perscholas\prework\css\style.css">
+	<title> Revathy Kandasamy </title>
+</head>
+<nav>
+	<ul> 
+		<li id="Menu"><a href="C:\Users\Revathy\Documents\Perscholas\Prework\index.html"> Home </a>  </li>
+		<li id="Menu"> <a href="C:\Users\Revathy\Documents\Perscholas\Prework\Pages\Roles.html"> IT Roles & Courses </a></li>		
+	</ul>
+</nav>
+
+<body>
+
+	</div>
+	<h3> Perscholas training</h3>
+	<div id="pic2">
+		<img src="C:\Users\Revathy\Documents\Perscholas\Prework\images\Perscholas_Logo.png"; width=100px; height:100px >
+	</div>
+	<div>
+  		<p> Perscholas is providing training for IT roles with hands-on technical learning, business professional skills development to help you adapt to today’s changing work environments. </p>
+  		<p>These courses are open to candidates from any US city and designed to meet employer-specific job demand. Below are courses currently provided in dallas location</p>
+  		<h4> Note: Next batch of trianing starts in 2022</h4>
+
+  		<p>
+			<a href="https://perscholas.org/locations/dallas/"> <i> Persoclas </i> 
+			</a> 
+		</p>
+		</div>
+
+	<div id="div1" > 
+		<table width=100% ; border="solid">
+			<tr>
+				<th>Course</th>
+				<th>Training Weeks</th>
+			</tr>
+			<tr>
+				<td>Software engineering</td>
+				<td> 14 </td>
+			</tr>
+			<tr>
+				<td>Cybersecurity</td>
+				<td> 14 </td>
+			</tr>
+			<tr>
+				<td>IT support</td>
+				<td> 12 </td>
+			</tr>
+		</table>
+	
+	 
+
+	<div id="div2">
+		<iframe width="350" height="250" src="https://www.youtube.com/embed/62jVKgJjRR4?start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
+	
+	<div id="div3">
+		<iframe width="350" height="250" src="https://www.youtube.com/embed/J6rVaFzOEP8?start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
+</body>
+
+</html>
