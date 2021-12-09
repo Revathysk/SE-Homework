@@ -7,7 +7,7 @@ maxOfTwoNumbers = (a,b) => {
   if (a > b) {
     return a; }
     else {
-      return b;
+      return b;      
     }
 };
 
@@ -40,39 +40,85 @@ isCharacterAVowel = (string) => {
 4. Define a function sumArray and a function multiplyArray that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sumArray([1,2,3,4]) should return 10, and multiplyArray([1,2,3,4]) should return 24.
 */
 
-sumArray = () => {
-  // ADD YOUR CODE HERE
-  let j=0;
-  for (let i=0;i<sumArray.length;i++)
-  { j=j+sumArray[i]
-  console.log(sumArray[i])}
-  return j;
-};
-sumArray(1,2,3,4,5));
 
+sumArray =(arrayX) =>
+  // ADD YOUR CODE HERE
+  { 
+    let max = 0;
+    for(let i = 0; i < arrayX.length; i++) {
+      max += arrayX[i];  }
+    return max;
+  } 
+const sum = sumArray([1,2,3,4,5]);
+console.log(sum);
+
+multiplyArray= (arrayA) =>{
+
+  let multi = 1;
+    for(let i = 0; i < arrayA.length; i++) {
+      multi *= arrayA[i];  }
+    return multi;
+  } 
+// const total = multiplyArray ([1,2,3,4,5]);
+// console.log(total);
+console.log(multiplyArray ([1,2,3,4,5]));
 
 /*
 5.Write a function that returns the number of arguments passed to the function when called.
 */
+valueCount=()=>{ 
+  return (arguments.length);}
 
+console.log(valueCount(1,2,3,5));
 /*
 6. Define a function reverseString that computes the reversal of a string. For example, reverseString("jag testar") should return the string "ratset gaj".
 */
 
-reverseString = () => {
-  // ADD YOUR CODE HERE
-};
+reverseString = (str) => {
+   // ADD YOUR CODE HERE
+  let reverseStr = '';
+  for (let i = str.length - 1; i >= 0; i--) {
+    reverseStr += str[i];
+  }
+  return reverseStr;
+}
+
+console.log(reverseString('palindromes'));
 
 /*
 7. Write a function findLongestWord that takes an array of words and returns the length of the longest one.
 */
-findLongestWord = () => {
+findLongestWord = (wordArray) => {
   // ADD YOUR CODE HERE
+let count=0;
+let word='';
+for (let i = 0; i< wordArray.length ; i++ ) 
+  {
+     if(count < wordArray[i].length)
+     {
+      count = wordArray[i].length;
+      word= wordArray[i]
+     }
+  }
+  return(word);
 };
 
+console.log (findLongestWord(['asb','erty','22','sdsd34']));
 /*
 8. Write a function filterLongWords that takes an array of words and a number i and returns the array of words that are longer than i characters long.
 */
-filterLongWords = () => {
-  // ADD YOUR CODE HERE
+filterLongWords = (wordArray,num) => {
+    // ADD YOUR CODE HERE
+
+   let word=[];
+  for (let i = 0; i< wordArray.length ; i++ ) 
+  {
+     if(wordArray[i].length > num )
+     {
+      word.push(wordArray[i]);
+     }
+  }
+  return(word);
 };
+const arrayZ= filterLongWords(['asb','erty','22','sdsd34'],3);
+console.log(arrayZ);
